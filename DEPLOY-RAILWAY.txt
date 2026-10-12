@@ -1,0 +1,9 @@
+Railway deployment
+
+1. Upload this folder to a GitHub repository (all files in this folder, not the parent folder).
+2. In Railway, deploy the GitHub repository.
+3. Set Start Command to: npm start
+4. No build command is needed. Railway supplies PORT automatically.
+5. The app serves / and /freedom-fk/ and maps product URLs using ?id=... to their saved HTML snapshots.
+
+Note: This archive is a static HTML snapshot, not the original dynamic PHP application. Some images/styles still reference the source website or third-party URLs, so those assets may stop working if the source removes them.
